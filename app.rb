@@ -10,11 +10,12 @@ class App < Sinatra::Base
       #erb :index
     #end
 
-#get '/info' do
-  #{}"Testing"
-   #end
+get '/info' do
+  "Testing"
+   end
 
 
    get '/' do
       erb :index
     end
+end
