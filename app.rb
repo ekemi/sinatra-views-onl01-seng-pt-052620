@@ -10,6 +10,6 @@ class App < Sinatra::Base
       #erb :index
     #end
 #end
-get "/" do
+get '/' do
   "Testing the info page"
 end
