@@ -11,5 +11,5 @@ class App < Sinatra::Base
     #end
 #end
 get '/' do
-  "Testing the info page"
+  "<h1> Hello World</h1>"
 end
