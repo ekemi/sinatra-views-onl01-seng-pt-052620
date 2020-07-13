@@ -8,9 +8,9 @@ class App < Sinatra::Base
 
   #get '/' do
       #erb :index
-    #end
-#end
-get '/' do
-  "<h1> Hello World</h1>"
+    end
+end
+get '/info' do
+  "Testing"
 end
 end
